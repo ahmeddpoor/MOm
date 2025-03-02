@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body{
+    color: #333;
+}
+header{
+    background-color: #333;
+    padding: 20px 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links li{
+    display: inline-block;
+}
+.nav-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px;
+}
+.nav-links a:hover{
+    color: rebeccapurple;
+}
+#M{
+    color:rebeccapurple ;
+}
+.aaaa{
+    display: none;
+    color: #fff;
+    font-size: 30px;
+}
+.toggle-menu{
+    display: none;
+}
+.toggle-menu:checked + .aaaa + .nav-links{
+    display: block;
+}
+@media (max-width: 768px) {
+     .nav-links {
+        display: none;
+        width: 100%;
+        text-align: center;
+        
+     }
+
+     .nav-links li {
+        display: block;
+        margin: 10px 0;
+     }
+     .aaaa {
+        display: block;
+     }
+}
+
+
+.aya {
+    background-color:aliceblue;
+    padding: 50px 20px;
+    display: flex;
+    justify-content: left;
+    border-radius: 15px;
+
+}
+.aya-content {
+    display: flex;
+
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.text {
+    flex: 100px;
+    
+}
+.text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.text span{
+    color: rebeccapurple;
+}
+.text h1 {
+    color:#333;
+}
+@media (max-width: 768px){
+    .aya-content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .text{
+        margin-right: 0;
+    }
+    .img {
+        flex-direction: column;
+        align-items: center;
+
+    
+    }
+}
+
+
+
+.products {
+    text-align: center;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.products h2 {
+    color: rebeccapurple;
+    margin-bottom: 20px;
+}
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.product-aaa {
+    flex: 1 1 20px;
+    background-color:;
+    padding: 20px;
+    
+    text-align: center;
+
+}
+.product-aaa img {
+    width: 100%;
+    
+    margin-bottom: 20px;
+}
+
+.product-aaa h3{
+    font-size: 25px;
+    margin: 5px 0;
+}
+.dpoor{
+    display: flex;
+    background-color: aliceblue;
+    padding: 50px 20px;
+
+}
+.dpoor-aww {
+    padding: 50px;
+    flex-wrap: wrap;
+}
+.dpoor-aww h1{
+    text-align: center;
+    
+}
+@media (max-width: 768px){
+    .dpoor-aww{
+        flex: ;
+    }
+    .dpoor{
+        flex-direction: column;
+        align-items: center;
+    
+
+
+}
